@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 break;
             case 1:
                 // Contador de Números Pares e Impares
-                const numero = parseInt(prompt("Ingrese un número:"));
+                const numero = parseInt(prompt("Ingrese un número el cual se contarán los pares e inpares:"));
                 let pares = 0;
                 let impares = 0;
                 for (let i = 1; i <= numero; i++) {
@@ -35,11 +35,11 @@ document.addEventListener("DOMContentLoaded", function () {
                 break;
             case 3:
                 // Validación de Contraseña
-                const contraseña = prompt("Ingrese una contraseña:");
-                if (contraseña === "secreto123") {
-                    resultadoDiv.innerHTML = "Acceso concedido.";
+                const contraseña = prompt("Digite una contraseña:");
+                if (contraseña === "123456789") {
+                    resultadoDiv.innerHTML = "Contraseña correcta.";
                 } else {
-                    resultadoDiv.innerHTML = "Acceso denegado.";
+                    resultadoDiv.innerHTML = "Contraseña incorrecta.";
                 }
                 break;
             case 4:
